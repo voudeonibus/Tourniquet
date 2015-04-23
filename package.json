@@ -1,0 +1,25 @@
+{
+  "name": "turnstile",
+  "version": "1.0.0",
+  "description": "Registry Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voudeonibus/Turnstile.git"
+  },
+  "keywords": [
+    "micro-service",
+    "registry",
+    "services",
+    "service"
+  ],
+  "author": "Vou de Ônibus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voudeonibus/Turnstile/issues"
+  },
+  "homepage": "https://github.com/voudeonibus/Turnstile"
+}
