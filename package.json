@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/voudeonibus/Turnstile/issues"
   },
-  "homepage": "https://github.com/voudeonibus/Turnstile"
+  "homepage": "https://github.com/voudeonibus/Turnstile",
+  "dependencies": {
+    "hapi": "^8.4.0",
+    "ip": "^0.3.2",
+    "redis": "^0.12.1",
+    "socket.io": "^1.3.5"
+  }
 }
