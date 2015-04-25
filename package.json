@@ -1,5 +1,5 @@
 {
-  "name": "turnstile",
+  "name": "Tourniquet",
   "version": "1.0.0-alpha",
   "description": "Registry Service",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/voudeonibus/Turnstile.git"
+    "url": "https://github.com/voudeonibus/Tourniquet.git"
   },
   "keywords": [
     "micro-service",
@@ -19,9 +19,9 @@
   "author": "Vou de Ônibus",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/voudeonibus/Turnstile/issues"
+    "url": "https://github.com/voudeonibus/Tourniquet/issues"
   },
-  "homepage": "https://github.com/voudeonibus/Turnstile",
+  "homepage": "https://github.com/voudeonibus/Tourniquet",
   "dependencies": {
     "hapi": "^8.4.0",
     "ioredis": "^1.0.10",
