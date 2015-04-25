@@ -29,3 +29,5 @@ node_modules
 *.rdb
 
 *DS_Store
+
+testClient.js
