@@ -6,6 +6,7 @@
     "indent": [2, 2],
     "quotes": [2, "single", "avoid-escape"],
     "block-scoped-var": true,
-    "no-redeclare": true
+    "no-redeclare": true,
+    "camelcase": [0]
   }
 }
