@@ -7,7 +7,7 @@
 ![download npm month](https://img.shields.io/npm/dm/tourniquet.svg)
 ![license](https://img.shields.io/npm/l/tourniquet.svg)
 
-Tourniquet is a service registry build primarily on [node.js](http://nodejs.org/), [Redis](http://redis.io/) and [Socket.io](https://github.com/Automattic/socket.io), inspired by [Thalassa](https://github.com/PearsonEducation/thalassa).
+Tourniquet is a service registry build primarily on [node.js](http://nodejs.org/)/[io.js](https://iojs.org/en/index.html), [Redis](http://redis.io/) and [Socket.io](https://github.com/Automattic/socket.io), inspired by [Thalassa](https://github.com/PearsonEducation/thalassa).
 
 Registry Service by Vou de Ônibus.
 
