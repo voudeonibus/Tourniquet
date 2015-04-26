@@ -12,7 +12,8 @@ Registry Service by Vou de Ônibus
 ## Table of contents
 
 - [Quick start](#quick-start)
-- [Server as an Embedded Module](#server-as-an-embedded-module)
+- [Starting as a server](#starting-as-a-server)
+- [Starting as a client](#starting-as-a-client)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
@@ -35,14 +36,14 @@ Tourniquet();
 
 ### Options
 
-- *port:* Tourniquet socket port | *default:* 5000
-- *redis_port:* port of redis | *default:* 6379
-- *redis_host:* host of redis | *default:* 127.0.0.1
-- *redis_password:* password of redis | *default:* undefined
-- *redis_db:* name of database on redis | *default:* 4
+- **port:** Tourniquet socket port | **default:* 5000
+- **redis_port:** port of redis | **default:* 6379
+- **redis_host:** host of redis | **default:* 127.0.0.1
+- **redis_password:** password of redis | **default:** undefined
+- **redis_db:** name of database on redis | **default:** 4
 
-Can configure all options as environment variables in UpperCase(eg: REDIS_PORT), except the parameter *port*, that as environment variables
-should be *TOURNIQUET_PORT*
+Can configure all options as environment variables in UpperCase(eg: REDIS_PORT), except the parameter **port**, that as environment variables
+should be **TOURNIQUET_PORT**
 
 ### Example
 
@@ -54,7 +55,43 @@ Tourniquet({
     redis_port: 6379
 });
 ```
+## Starting as a client
 
+```
+var Tourniquet = require('tourniquet/client');
+
+var client = new Tourniquet({
+  service: 'my-service',
+  version: '1.0.0',
+  port: 8080
+});
+
+```
+
+### Options
+
+- **service**: name of your service | optional
+- **version**: version of your service | optional
+- **port**: port of your service | optional
+- **tourniquet_port**: port of server tourniquet | **default:** 5000
+- **tourniquet_host**: host of server tourniquet | **default:** http://localhost
+
+Can configure all options of Tourniquet as environment variables in UpperCase(eg: TOURNIQUET_PORT).
+
+### Example
+
+```
+var Tourniquet = require('tourniquet/client');
+
+var client = new Tourniquet({
+  service: 'my-service',
+  version: '1.0.0',
+  port: 8080,
+  tourniquet_port: 5000,
+  tourniquet_host: '127.0.0.1'
+});
+
+```
 
 ## Bugs and feature requests
 
