@@ -1,10 +1,11 @@
 {
   "name": "tourniquet",
-  "version": "1.1.11-alpha",
+  "version": "1.1.12-alpha",
   "description": "Registry Service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm test",
+    "test": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,9 @@
     "url": "https://github.com/voudeonibus/Tourniquet/issues"
   },
   "homepage": "https://github.com/voudeonibus/Tourniquet",
+  "peerDependencies": {
+    "eslint": "^0.20.0"
+  },
   "dependencies": {
     "hapi": "^8.4.0",
     "ioredis": "^1.0.10",
