@@ -1,7 +1,11 @@
 # Tourniquet
 
 [![npm version](https://img.shields.io/npm/v/tourniquet.svg?style=flat)](https://www.npmjs.com/package/tourniquet)
+[![dependency Status](https://img.shields.io/david/voudeonibus/tourniquet.svg?style=flat)](https://david-dm.org/voudeonibus/tourniquet#info=dependencies)
 [![devDependency Status](https://img.shields.io/david/dev/voudeonibus/tourniquet.svg?style=flat)](https://david-dm.org/voudeonibus/tourniquet#info=devDependencies)
+![download github](https://img.shields.io/github/downloads/voudeonibus/Tourniquet/latest/total.svg)
+![download npm month](https://img.shields.io/npm/dm/tourniquet.svg)
+![license](https://img.shields.io/npm/l/tourniquet.svg)]
 
 Registry Service by Vou de Ônibus
 
