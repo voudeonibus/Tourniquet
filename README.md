@@ -36,11 +36,13 @@ Tourniquet();
 
 ### Options
 
-- **port:** Tourniquet socket port | **default:* 5000
-- **redis_port:** port of redis | **default:* 6379
-- **redis_host:** host of redis | **default:* 127.0.0.1
+- **port:** Tourniquet socket port | **default:** 5000
+- **redis_port:** port of redis | **default:** 6379
+- **redis_host:** host of redis | **default:** 127.0.0.1
 - **redis_password:** password of redis | **default:** undefined
 - **redis_db:** name of database on redis | **default:** 4
+
+### Note
 
 Can configure all options as environment variables in UpperCase(eg: REDIS_PORT), except the parameter **port**, that as environment variables
 should be **TOURNIQUET_PORT**
@@ -75,6 +77,8 @@ var client = new Tourniquet({
 - **port**: port of your service | optional
 - **tourniquet_port**: port of server tourniquet | **default:** 5000
 - **tourniquet_host**: host of server tourniquet | **default:** http://localhost
+
+### Note
 
 Can configure all options of Tourniquet as environment variables in UpperCase(eg: TOURNIQUET_PORT).
 
