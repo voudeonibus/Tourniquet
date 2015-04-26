@@ -5,7 +5,7 @@
 [![devDependency Status](https://img.shields.io/david/dev/voudeonibus/tourniquet.svg?style=flat)](https://david-dm.org/voudeonibus/tourniquet#info=devDependencies)
 ![download github](https://img.shields.io/github/downloads/voudeonibus/Tourniquet/latest/total.svg)
 ![download npm month](https://img.shields.io/npm/dm/tourniquet.svg)
-![license](https://img.shields.io/npm/l/tourniquet.svg)]
+![license](https://img.shields.io/npm/l/tourniquet.svg)
 
 Registry Service by Vou de Ônibus
 
