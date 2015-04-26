@@ -12,6 +12,7 @@ Registry Service by Vou de Ônibus
 ## Table of contents
 
 - [Quick start](#quick-start)
+- [Server as an Embedded Module](#server-as-an-embedded-module)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
@@ -23,6 +24,37 @@ Several quick start options are available:
 
 - Clone the repo: `git clone https://github.com/voudeonibus/Tourniquet.git`.
 - Install with [npm](https://www.npmjs.com): `npm install tourniquet`.
+
+## Starting as a server
+
+```
+var Tourniquet = require('tourniquet');
+
+Tourniquet();
+```
+
+### Options
+
+- *port:* Tourniquet socket port | *default:* 5000
+- *redis_port:* port of redis | *default:* 6379
+- *redis_host:* host of redis | *default:* 127.0.0.1
+- *redis_password:* password of redis | *default:* undefined
+- *redis_db:* name of database on redis | *default:* 4
+
+Can configure all options as environment variables in UpperCase(eg: REDIS_PORT), except the parameter *port*, that as environment variables
+should be *TOURNIQUET_PORT*
+
+### Example
+
+```
+var Tourniquet = require('tourniquet');
+
+Tourniquet({
+    port: 5000,
+    redis_port: 6379
+});
+```
+
 
 ## Bugs and feature requests
 
