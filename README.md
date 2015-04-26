@@ -1,5 +1,8 @@
 # Tourniquet
 
+[![npm version](https://img.shields.io/npm/v/tourniquet.svg?style=flat)](https://www.npmjs.com/package/tourniquet)
+[![devDependency Status](https://img.shields.io/david/dev/voudeonibus/tourniquet.svg?style=flat)](https://david-dm.org/voudeonibus/tourniquet#info=devDependencies)
+
 Registry Service by Vou de Ônibus
 
 ## Table of contents
