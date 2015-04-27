@@ -30,7 +30,7 @@ Several quick start options are available:
 
 ## Starting as a server
 
-```
+```javascript
 var Tourniquet = require('tourniquet');
 
 Tourniquet();
