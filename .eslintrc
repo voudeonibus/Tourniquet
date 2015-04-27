@@ -1,6 +1,7 @@
 {
   "env": {
-    "node": 1
+    "node": 1,
+    "mocha": 1
   },
   "rules": {
     "indent": [2, 2],
@@ -8,6 +9,8 @@
     "block-scoped-var": true,
     "no-redeclare": true,
     "camelcase": [0],
-    "no-process-exit": [0]
+    "no-process-exit": [0],
+    "no-underscore-dangle": [0],
+    "no-shadow": [0]
   }
 }
