@@ -7,7 +7,7 @@
 ![download npm month](https://img.shields.io/npm/dm/tourniquet.svg)
 ![license](https://img.shields.io/npm/l/tourniquet.svg)
 
-Tourniquet is a service registry build primarily on [node.js](http://nodejs.org/)/[io.js](https://iojs.org/en/index.html), [Redis](http://redis.io/) and [Socket.io](https://github.com/Automattic/socket.io), inspired by [Thalassa](https://github.com/PearsonEducation/thalassa).
+Tourniquet is a service registry build primarily on [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/en/index.html), [Redis](http://redis.io/) and [Socket.io](https://github.com/Automattic/socket.io), inspired by [Thalassa](https://github.com/PearsonEducation/thalassa).
 
 Registry Service by Vou de Ônibus.
 
@@ -46,7 +46,7 @@ Tourniquet();
 
 ### Note
 
-Can configure all options as environment variables in UpperCase(eg: REDIS_PORT), except the parameter **port**, that as environment variables
+You can configure all options as environment variables in UpperCase(eg: REDIS_PORT), except the parameter **port**, that as environment variables
 should be **TOURNIQUET_PORT**
 
 ### Example
@@ -82,7 +82,7 @@ var client = new Tourniquet({
 
 ### Note
 
-Can configure all options of Tourniquet as environment variables in UpperCase(eg: TOURNIQUET_PORT).
+You can configure all options of Tourniquet as environment variables in UpperCase (eg: TOURNIQUET_PORT).
 
 ### Example
 
