@@ -86,7 +86,7 @@ You can configure all options of Tourniquet as environment variables in UpperCas
 
 ### Example
 
-```
+```javascript
 var Tourniquet = require('tourniquet/client');
 
 var client = new Tourniquet({
