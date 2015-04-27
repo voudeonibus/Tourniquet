@@ -61,7 +61,7 @@ Tourniquet({
 ```
 ## Starting as a client
 
-```
+```javascript
 var Tourniquet = require('tourniquet/client');
 
 var client = new Tourniquet({
