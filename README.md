@@ -51,7 +51,7 @@ should be **TOURNIQUET_PORT**
 
 ### Example
 
-```
+```javascript
 var Tourniquet = require('tourniquet');
 
 Tourniquet({
