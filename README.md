@@ -77,6 +77,7 @@ var client = new Tourniquet({
 - **service**: name of your service | optional
 - **version**: version of your service | optional
 - **port**: port of your service | optional
+- **listener**: run the client as listener | If you do not provide any service to register, the client will run as a listener by default
 - **tourniquet_port**: port of server tourniquet | **default:** 5000
 - **tourniquet_host**: host of server tourniquet | **default:** http://localhost
 
