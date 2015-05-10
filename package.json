@@ -30,6 +30,7 @@
     "eslint": "^0.20.0"
   },
   "dependencies": {
+    "colors": "^1.1.0",
     "hapi": "^8.4.0",
     "ioredis": "^1.0.10",
     "ip": "^0.3.2",
