@@ -1,0 +1,8 @@
+machine:
+  node:
+    version: 0.11.8
+
+dependencies:
+  override:
+    - npm install eslint -g
+    - npm install
