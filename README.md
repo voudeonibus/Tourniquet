@@ -9,7 +9,7 @@
 
 Tourniquet is a service registry build primarily on [Node.js](http://nodejs.org/)/[io.js](https://iojs.org/en/index.html), [Redis](http://redis.io/) and [Socket.io](https://github.com/Automattic/socket.io), inspired by [Thalassa](https://github.com/PearsonEducation/thalassa).
 
-Registry Service by Vou de Ônibus.
+Registry Service by Vou de ônibus.
 
 ## Table of contents
 
